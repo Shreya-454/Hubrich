@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .mobileView{
+    @apply max-lg:bg-[#008AB9] max-lg:!z-30 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-300
+  }
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(/public/assets/fonts/HelveticaNeueLight.otf);
+}
+.font-hel{
+  font-family:'HelveticaNeue',sans-serif ;
+}
+.client .swiper-pagination-horizontal {
+  bottom: 0 !important;
+}
+.client .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: #003E92 !important;
+}
+.client .swiper-pagination-vertical {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: auto !important;
+ post: absolute !important;
+  top: 84% !important;
+  transform: translateX(-50%) !important;
+}
+.slider1 .slick-dots {
+ post: absolute;
+  bottom: -84px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slider1 .slick-dots li button:before {
+  font-size: 0;
+  line-height: 20px;
+  width: 14px;
+  background: white;
+  height: 14px;
+  content: '•';
+  border-radius: 50%;
+  text-align: center;
+  opacity: .25;
+}
+.slider1 .slick-dots li {
+ post: relative;
+  display: inline-block;
+  width: 7px !important;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+@media (min-width:640px) {
+  .slider1 .slick-dots {
+   post: absolute;
+    bottom: -69px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+}
+@media (min-width:768px) {
+.slider1 .slick-dots {
+ post: absolute;
+  bottom: -117px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slider1 .slick-dots li button:before {
+  font-size: 0;
+  line-height: 20px;
+  width: 8px;
+  background: white;
+  height: 8px;
+  content: '•';
+  border-radius: 50%;
+  text-align: center;
+  opacity: .25;
+}
+}
