@@ -9,7 +9,7 @@ import Mindset from "@/components/Mindset";
 import Over from "@/components/Over";
 import Preloader from "@/components/Preloader";
 import Target from "@/components/Target";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
