@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { Facebook, Insta, Mail, Twitter } from "./Icon";
 function Footer() {
+  const Dates = new Date()
+  const year = Dates.getFullYear()
   return (
     <div className="bg-[url(/assets/images/footerbg.webp)] bg-cover bg-center bg-no-repeat pt-[90.25px] pb-[93px] max-md:py-16 max-sm:py-10 overflow-x-clip ">
       <div className="container max-w-[1140px] mx-auto px-3 2xl:max-w-[1320px] relative">
@@ -14,7 +16,7 @@ function Footer() {
             className="mb-4 lg:pr-7"
           />
           <p className=" text-white text-center text-base max-sm:text-sm font-Poppins sm:leading-[25.6px] font-normal max-w-[264px]">
-            (c)2022 MARC JOACHIM HUBRICH{" "}
+            (c){year} MARC JOACHIM HUBRICH{" "}
             <span className="block">All Rights Reserved</span>
           </p>
         </div>

@@ -13,6 +13,7 @@ import Footer from "@/components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import Backtotop from "@/components/Backtotop";
 
 export default function Home() {
   const [data, setdata] = useState(false);
@@ -47,6 +48,7 @@ export default function Home() {
   <Clients/>
   <Binding/>
   <Footer/>
+  <Backtotop/>
   </div>
 )}
 </div>
