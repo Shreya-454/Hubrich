@@ -5,7 +5,7 @@ const Fault = () => {
     <div className=" pt-[150px] pb-[122px] max-sm:py-10 relative overflow-x-clip">
      <Image src="/assets/images/svg/faultellipse.svg" alt="ellipse" width={409.93} height={297.94} className="absolute lg:right-[-16%] right-[-30%] max-sm:hidden top-[7%]"/>
       <div className="container max-w-[1140px] mx-auto px-3 2xl:max-w-[1320px] ">
-      <div className=" absolute lg:top-[-5%] top-[-5%] max-lg:left-[18%] lg:z-[1] max-lg:rotate-90 max-sm:hidden" data-aos="fade-right">
+      <div className=" absolute lg:top-[-5%] top-[-5%] max-lg:left-[4%] lg:z-[1] max-lg:rotate-90 max-sm:hidden" data-aos="fade-right">
         <div className=" flex justify-start pb-[11px]">
             <p className=" font-Poppins max-sm:text-lg text-xl leading-[34px] tracking-[0.045em] font-light text-center -rotate-90 text-black">MJH</p>
         </div>
