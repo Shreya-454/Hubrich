@@ -27,12 +27,12 @@
   top: var(--swiper-pagination-top, auto);
   left: 0;
   width: auto !important;
- post: absolute !important;
+ position: absolute !important;
   top: 84% !important;
   transform: translateX(-50%) !important;
 }
 .slider1 .slick-dots {
- post: absolute;
+ position: absolute;
   bottom: -84px;
   display: block;
   width: 100%;
@@ -54,7 +54,7 @@
   opacity: .25;
 }
 .slider1 .slick-dots li {
- post: relative;
+ position: relative;
   display: inline-block;
   width: 7px !important;
   height: 20px;
@@ -64,7 +64,7 @@
 }
 @media (min-width:640px) {
   .slider1 .slick-dots {
-   post: absolute;
+   position: absolute;
     bottom: -69px;
     display: block;
     width: 100%;
@@ -76,7 +76,7 @@
 }
 @media (min-width:768px) {
 .slider1 .slick-dots {
- post: absolute;
+ position: absolute;
   bottom: -117px;
   display: block;
   width: 100%;
