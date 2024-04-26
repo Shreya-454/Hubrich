@@ -8,6 +8,9 @@
     @apply max-lg:bg-[#008AB9] max-lg:!z-30 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-300
   }
 }
+*{
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "HelveticaNeue";
   src: url(/public/assets/fonts/HelveticaNeueLight.otf);

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Get = () => {
   return (
-    <div className=" pb-[124.25px] relative overflow-x-clip z-[1] ">
+    <div className=" pb-[124.25px] relative overflow-x-clip z-[1] " id="get">
       <Image src="/assets/images/flowerellipse1.webp" alt="ellipse" width={313.12} height={301.85} className="absolute right-[-11%] top-[10%] max-md:right-[-25%] max-sm:hidden" />
       <Image src="/assets/images/flowerellipse2.webp" alt="ellipse" width={313.12} height={301.85} className=" rotate-[6.63deg] absolute bottom-[5%] left-[-10%] max-sm:hidden"/>
       <div className="container max-w-[1140px] mx-auto px-3 2xl:max-w-[1320px]">
