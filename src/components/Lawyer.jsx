@@ -62,7 +62,7 @@ const Lawyer = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-[7%] bottom-[-28%] max-sm:hidden max-md:bottom-[-14%]" data-aos="fade-left">
+        <div className="absolute right-[7%] bottom-[-28%] max-sm:hidden max-md:bottom-[-3%]" data-aos="fade-left">
           <div className="flex justify-end translate-x-5 mb-[11px]">
             <p className="font-Poppins text-xl leading-[34px] text-center -rotate-90 tracking-[0.04em]">MJH</p>
           </div>

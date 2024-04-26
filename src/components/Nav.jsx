@@ -23,7 +23,7 @@ document.body.classList.add("max-lg:overflow-hidden");
         }`}>
                 <li onClick={nav}><a href="#get"  className=' font-hel  leading-[20.61px]  font-normal text-base text-white hover:text-black duration-300 after:bg-black after:right-0 after:left-[100%] after:duration-300 after:rounded-md after:h-[2px] after:absolute hover:after:left-0 relative after:bottom-0'>Benifits</a></li>
                 <li onClick={nav}><a href="#test"  className=' font-hel leading-[20.61px] font-normal text-base text-white hover:text-black duration-300 after:bg-black after:right-0 after:left-[100%] after:duration-300 after:rounded-md after:h-[2px] after:absolute hover:after:left-0 relative after:bottom-0'>Testimonials</a></li>
-                <li><button className=' bg-btn-gradient  font-medium text-base font-Inter py-4 px-[28.21px] after:absolute relative after:h-full after:top-0 after:left-0 hover:after:right-0 group after:right-[100%] after:bg-white after:z-[-1] z-[1] after:duration-300'><span className='text-white duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-btn-gradient'>Book consultation now</span></button></li>
+                <li onClick={nav}><button className=' bg-btn-gradient  font-medium text-base font-Inter py-4 px-[28.21px] after:absolute relative after:h-full after:top-0 after:left-0 hover:after:right-0 group after:right-[100%] after:bg-white after:z-[-1] z-[1] after:duration-300'><span className='text-white duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-btn-gradient'>Book consultation now</span></button></li>
             </ul>
          
             
