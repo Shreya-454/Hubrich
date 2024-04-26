@@ -39,7 +39,7 @@ const Get = () => {
             className="max-lg:hidden"
             data-aos="zoom-in"
           />
-            <p className=" max-sm:text-center font-Poppins max-sm:text-sm text-base text-black font-normal max-lg:text-center sm:leading-[25.6px] max-w-[419.24px] after:absolute relative after:bg-[#9800B0] after:top-2 after:bottom-2 after:-left-2.5 after:w-[2px] ml-5" data-aos="fade-left">
+            <p className=" max-sm:text-center font-Poppins max-sm:text-sm text-base text-black max-lg:mx-auto font-normal max-lg:text-center sm:leading-[25.6px] max-w-[419.24px] after:absolute relative after:bg-[#9800B0] after:top-2 after:bottom-2 after:-left-2.5 after:w-[2px] ml-5" data-aos="fade-left">
               I will show you which steps are necessary for you to finally
               successfully let go of your EX. And I will support you to look
               confidently into your new future.
