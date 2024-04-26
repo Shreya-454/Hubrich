@@ -20,7 +20,7 @@ const Backtotop = () => {
   return (
     <div>
       <button
-        className={`group animate-bounce border-2 flex justify-center w-[45px] h-[45px] bg-[#003D92] rounded-full items-center p-2  fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300   hover:shadow-[1px_1px_1px_1px_purple-600] ${
+        className={`group animate-bounce border-2 flex justify-center w-[45px] h-[45px] bg-btn-gradient rounded-full items-center p-2  fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300   hover:shadow-[1px_1px_1px_1px_purple-600] ${
           backToTop ? "" : "hidden"
         }`}
         onClick={() => top()}
