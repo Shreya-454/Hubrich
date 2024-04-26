@@ -101,7 +101,7 @@ const Get = () => {
                     width={50.84}
                     height={47.33}
                   />
-                  <p className=" font-Inter bg-btn-gradient text-transparent group-hover:text-white bg-clip-text font-medium pl-[6px] duration-300">
+                  <p className=" font-Inter bg-btn-gradient text-transparent group-hover:text-white text-base max-sm:text-sm bg-clip-text font-medium pl-[6px] duration-300">
                     Book a non-binding initial consultation now
                   </p>
                 </div>

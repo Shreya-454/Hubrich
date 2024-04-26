@@ -105,7 +105,7 @@ const Mindset = () => {
                       width={50.84}
                       height={47.33}
                     />
-                    <p className=" font-Inter text-transparent group-hover:text-white duration-300 bg-clip-text bg-btn-gradient font-medium">
+                    <p className=" font-Inter text-transparent group-hover:text-white duration-300 bg-clip-text bg-btn-gradient font-medium text-base max-sm:text-sm">
                       Book A Non-Binding Initial Consultation Now
                     </p>
                   </div>
