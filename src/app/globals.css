@@ -2,7 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer components{
   .mobileView{
     @apply max-lg:bg-[#008AB9] max-lg:!z-30 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-300
@@ -28,7 +27,6 @@
    list-style: none;
    text-align: center;
  }
- 
  .slider1 .slick-dots li button:before {
    font-size: 0;
    line-height: 20px;
@@ -65,39 +63,17 @@
   top: 84% !important;
   transform: translateX(-50%) !important;
 }
-
 @media (min-width:640px) {
   .slider1 .slick-dots {
-   position: absolute;
     bottom: -69px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
   }
 }
 @media (min-width:768px) {
 .slider1 .slick-dots {
- position: absolute;
   bottom: -117px;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: center;
 }
 .slider1 .slick-dots li button:before {
-  font-size: 0;
-  line-height: 20px;
   width: 8px;
-  background: white;
   height: 8px;
-  content: '•';
-  border-radius: 50%;
-  text-align: center;
-  opacity: .25;
 }
 }
